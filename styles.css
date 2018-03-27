@@ -341,3 +341,42 @@ html {
   line-height: 27px;
   width: 70%;
 }
+
+.stats {
+  height: 225px;
+  background-color: #212121;
+}
+
+.stats .container {
+  height: 100%;
+  width: 65%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.stats__text {
+  color: #c6c6c6;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.stats hr {
+  transform: rotate3d(90);
+  width: 100px;
+  color: #eee;
+}
+
+.stats__text span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  color: #a77e27;
+  display: block;
+  font-weight: 600;
+}
