@@ -7,6 +7,7 @@
   <title>ZIMU Practice Project</title>
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="./icons/icons.css">  
+  <link rel="stylesheet" href="carousel.css"></link>
   <link rel="stylesheet" href="reset.css"></link>
   <link rel="stylesheet" href="styles.css"></link>
 </head>
@@ -141,12 +142,35 @@
       </div>
     </div>
   </div>
+  <hr class="divider">
   <div class="testimonial">
     <div class="header">
-      <h1>Our Testimonials</h1>
-      <p class="text">We have a variety of high quality brand names who we are proud to all clients, from massive companies like Google to smaller local name companies.</p>
+      <h1>Our Testimontals</h1>
+      <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt tempora aliquid mollitia facere? At odio mollitia iure quia tempore atque.</p>
     </div>
-    <div class="carousel"></div>
+    <div class="carousel-wrapper" style="height: 400px;">
+      <span id="target-item-1"></span>
+      <span id="target-item-2"></span>
+      <span id="target-item-3"></span>
+      <div class="carousel-item item-1">
+        <h2>Item 1</h2>
+        <p>Content goes here.</p>
+        <a class="arrow arrow-prev" href="#target-item-3"></a>
+        <a class="arrow arrow-next" href="#target-item-2"></a>
+      </div>
+      <div class="carousel-item item-2">
+        <h2>Item 2</h2>
+        <p>Content goes here.</p>
+        <a class="arrow arrow-prev" href="#target-item-1"></a>
+        <a class="arrow arrow-next" href="#target-item-3"></a>
+      </div>
+      <div class="carousel-item item-3">
+        <h2>Item 3</h2>
+        <p>Content goes here.</p>
+        <a class="arrow arrow-prev" href="#target-item-2"></a>
+        <a class="arrow arrow-next" href="#target-item-1"></a>
+      </div>
+    </div>
   </div>
   <script>
     var docWidth = document.documentElement.offsetWidth;
@@ -160,5 +184,6 @@
       }
     );
   </script>
+  <script src="./carousel.js"></script>
 </body>
 </html>
