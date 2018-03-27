@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"></meta>
+  <title>ZIMU Practice Project</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="./icons/icons.css">  
+  <link rel="stylesheet" href="reset.css"></link>
+  <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+  <div class="landing landing__overlay">
+    <div class="container">
+      <nav class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Case Study</a></li>
+          <li><a href="">Service</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="clearfix"></div>
+      <div class="landing__content">
+        <h1>A Modern Digital Agency for the 21st Century</h1>
+        <p>It is long established that a reader will be distracted by readable content</p>
+        <button class="btn btn-primary">Get Started Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="about">
+    <div class="container">
+      <div class="header">
+        <h1>A Little Story About Our Agency</h1>
+        <p class="text">We have been operating our of Bristow, VA for the past 10 years. </p>
+      </div>
+      <div class="about__content">
+        <div><img src="./img/photo_2.jpg" alt=""></div>
+        <div class="about__text">
+          <hr>
+          <div class="clearfix"></div>
+          <p class="text">
+            We here at ZIMU believe that higher quality digital content is absolutely crucial to selling your brand. 
+            It's been a long and experience filled decade, so come see what we've built.
+          </p>
+          <button class="btn btn-secondary">More About Us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="divider">
+  <div class="actions">
+    <div class="container">
+      <div class="header">
+        <h1>What We Do</h1>
+        <p class="text">We help companies further develop their brands through digital means to help your company grow</p>
+      </div>
+      <div class="actions__content">
+        <div class="actions__card">
+          <div><i class="icon-github"></i></div>
+          <h3>Version Control</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facere?
+          </p>
+        </div>
+        <div class="actions__card">
+          <div><i class="icon-android"></i></div>
+          <h3>App Development</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, labore?
+          </p>
+        </div>
+        <div class="actions__card">
+          <div><i class="icon-adn"></i></div>
+          <h3>A+ Quality</h3>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, reiciendis?
+          </p>
+        </div>
+        <div class="actions__card">
+          <div><i class="icon-dribbble"></i></div>
+          <h3>Design</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, eveniet!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="divider">
+  <div class="latest">
+    <div class="container">
+      <div class="header">
+        <h1>Our Latest Work</h1>
+        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto autem illum illo id beatae odio error vel tenetur. Adipisci, ea!</p>
+      </div>
+      <div class="latest__content">
+        <div class="latest__image">
+          <img src="./img/photo_1.jpg" alt="">
+          <div class="overlay">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, non id aliquam magni nostrum est suscipit similique, reiciendis fugiat amet sint quasi ipsum quisquam quo placeat odio animi explicabo nobis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var docWidth = document.documentElement.offsetWidth;
+
+    [].forEach.call(
+      document.querySelectorAll('*'),
+      function(el) {
+        if (el.offsetWidth > docWidth) {
+          console.log(el);
+        }
+      }
+    );
+  </script>
+</body>
+</html>
