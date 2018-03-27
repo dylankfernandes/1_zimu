@@ -4,6 +4,9 @@ in the right place. */
 
 .carousel-wrapper {
   position: relative;
+  margin-top: -80px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .carousel-wrapper .carousel-item {
@@ -12,14 +15,47 @@ in the right place. */
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 25px 50px;
+  padding: 75px 100px;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.carousel-wrapper .carousel-item img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 200px;
+  margin-bottom: 10px;
+}
+
+.carousel-wrapper .carousel-item h2 {
+  color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.carousel-wrapper .carousel-item h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 450;
+  color: #555;
+}
+
+.carousel-wrapper .carousel-item hr {
+  width: 10%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 0.5px solid #a77e27;
 }
 
 .carousel-wrapper .carousel-item .arrow {
   position: absolute;
-  top: 0;
+  top: 50px;
   display: block;
   width: 50px;
   height: 100%;

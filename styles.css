@@ -337,7 +337,7 @@ html {
   margin-bottom: 100px;
 }
 
-.carousel-wrapper {
-  margin-right: 100px;
-  margin-left: 100px;
+.testimonial .carousel-wrapper .text {
+  line-height: 27px;
+  width: 70%;
 }
