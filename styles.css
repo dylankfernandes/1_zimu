@@ -380,3 +380,72 @@ html {
   display: block;
   font-weight: 600;
 }
+
+.crew {
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.crew__content {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.crew__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 4;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 280px;
+  border: 1px solid #c6c6c6;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.crew__card h2 {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.crew__card img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 200px;
+  margin-bottom: 10px;
+}
+
+.crew__card p {
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.crew__card h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.crew__social {
+  margin-top: 30px;
+}
+
+.crew__social a {
+  color: #212121;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-decoration: none;
+  font-size: 20px;
+}

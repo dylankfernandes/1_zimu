@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "untitled-font-1";
-  src:url("fonts/untitled-font-1.eot");
-  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
-    url("fonts/untitled-font-1.woff") format("woff"),
-    url("fonts/untitled-font-1.ttf") format("truetype"),
-    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-family: "zimu";
+  src:url("fonts/zimu.eot");
+  src:url("fonts/zimu.eot?#iefix") format("embedded-opentype"),
+    url("fonts/zimu.woff") format("woff"),
+    url("fonts/zimu.ttf") format("truetype"),
+    url("fonts/zimu.svg#zimu") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "untitled-font-1" !important;
+  font-family: "zimu" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "untitled-font-1" !important;
+  font-family: "zimu" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -55,4 +55,31 @@
 }
 .icon-dribbble:before {
   content: "\66";
+}
+.icon-google-plus-square:before {
+  content: "\67";
+}
+.icon-linkedin-square:before {
+  content: "\68";
+}
+.icon-facebook-alt:before {
+  content: "\69";
+}
+.icon-twitter-alt:before {
+  content: "\6a";
+}
+.icon-youtube-alt:before {
+  content: "\6b";
+}
+.icon-facebook:before {
+  content: "\6c";
+}
+.icon-pinterest-p:before {
+  content: "\6d";
+}
+.icon-twitter:before {
+  content: "\6e";
+}
+.icon-vimeo:before {
+  content: "\6f";
 }
