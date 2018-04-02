@@ -191,25 +191,27 @@
         <a class="arrow arrow-next" href="#target-item-2"></a>
       </div>
       <div class="carousel-item item-2">
-        <img src="./img/photo_1.jpg" alt="">
+        <img src="./img/photo_2.jpg" alt="">
         <h2>Jill James</h2>
         <h3>COO of Material Rush Industries</h3>
         <hr>
         <p class="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut cum eveniet fuga aliquam recusandae numquam libero eos!
-          Assumenda facere ipsum numquam in quas, asperiores suscipit. Repudiandae ex eum vero.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae suscipit facilis cumque voluptatem. Nostrum repellendus,
+          veritatis fugit voluptatibus velit eaque. Dolore, eius. Minima dicta deserunt cupiditate adipisci fugiat suscipit
+          magnam.
         </p>
         <a class="arrow arrow-prev" href="#target-item-1"></a>
         <a class="arrow arrow-next" href="#target-item-3"></a>
       </div>
       <div class="carousel-item item-3">
-        <img src="./img/photo_1.jpg" alt="">
+        <img src="./img/photo_3.jpg" alt="">
         <h2>Robert Roosevelt</h2>
         <h3>CIO of Fortune Enterprises</h3>
         <hr>
         <p class="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit ut cum eveniet fuga aliquam recusandae numquam libero eos!
-          Assumenda facere ipsum numquam in quas, asperiores suscipit. Repudiandae ex eum vero.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum ipsam velit accusantium hic cumque, animi vitae accusamus?
+          Eaque facilis pariatur asperiores! Accusantium, repudiandae nemo delectus temporibus dolores, illum id incidunt
+          eum unde officiis alias esse maiores omnis? Ea, commodi officiis.
         </p>
         <a class="arrow arrow-prev" href="#target-item-2"></a>
         <a class="arrow arrow-next" href="#target-item-1"></a>
@@ -337,19 +339,139 @@
       </div>
     </div>
   </div>
-  <script>
-    var docWidth = document.documentElement.offsetWidth;
-
-    [].forEach.call(
-      document.querySelectorAll('*'),
-      function (el) {
-        if (el.offsetWidth > docWidth) {
-          console.log(el);
-        }
-      }
-    );
-  </script>
-  <script src="./carousel.js"></script>
+  <hr class="divider">
+  <div class="blog">
+    <div class="container">
+      <div class="header">
+        <h1>Blog</h1>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem labore sint nulla a, dolore iure placeat omnis at itaque
+          similique!
+        </p>
+      </div>
+      <div class="blog__content">
+        <div class="blog__card">
+          <img src="./img/photo_1.jpg" alt="">
+          <p class="blog__date">March 6, 2018</p>
+          <h2>Thinking about design is hard</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore ut perspiciatis animi iure facere culpa quisquam
+            veniam ad unde?
+          </p>
+          <div class="blog__card-footer">
+            <a href="">Keep Reading</a>
+            <div class="blog__card-social">
+              <a href="">
+                <i class="icon-dribbble"></i>
+              </a>
+              <a href="">
+                <i class="icon-twitter"></i>
+              </a>
+              <a href="">
+                <i class="icon-pinterest-p"></i>
+              </a>
+              <a href="">
+                <i class="icon-vimeo"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="./img/photo_2.jpg" alt="">
+          <p class="blog__date">March 6, 2018</p>
+          <h2>Thinking about design is hard</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore ut perspiciatis animi iure facere culpa quisquam
+            veniam ad unde?
+          </p>
+          <div class="blog__card-footer">
+            <a href="">Keep Reading</a>
+            <div class="blog__card-social">
+              <a href="">
+                <i class="icon-dribbble"></i>
+              </a>
+              <a href="">
+                <i class="icon-twitter"></i>
+              </a>
+              <a href="">
+                <i class="icon-pinterest-p"></i>
+              </a>
+              <a href="">
+                <i class="icon-vimeo"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="./img/photo_3.jpg" alt="">
+          <p class="blog__date">March 6, 2018</p>
+          <h2>Thinking about design is hard</h2>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore inventore ut perspiciatis animi iure facere culpa quisquam
+            veniam ad unde?
+          </p>
+          <div class="blog__card-footer">
+            <a href="">Keep Reading</a>
+            <div class="blog__card-social">
+              <a href="">
+                <i class="icon-dribbble"></i>
+              </a>
+              <a href="">
+                <i class="icon-twitter"></i>
+              </a>
+              <a href="">
+                <i class="icon-pinterest-p"></i>
+              </a>
+              <a href="">
+                <i class="icon-vimeo"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="interested">
+    <div class="container">
+      <div>
+        <h1>Impressed? Let's Work Together</h1>
+      </div>
+      <div>
+        <button class="btn btn-primary">Contact Us</button>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="header">
+      <h1>Let's Talk Business</h1>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, repellendus.</p>
+    </div>
+    <div class="container">
+      <div>
+        <form action="POST" class="contact__form">
+          <label for="name">Name </label>
+          <input type="text" name="name">
+          <label for="email">Email</label>
+          <input type="email" name="email">
+          <label for="message">Message</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea>
+          <button class="btn btn-secondary">Send Message</button>
+        </form>
+      </div>
+      <div>
+        <img src="./img/photo_1.jpg" alt="ZIMU">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div>
+      <i class="icon-dribbble"></i>
+      <i class="icon-pinterest-p"></i>
+      <i class="icon-twitter"></i>
+      <i class="icon-vimeo"></i>
+    </div>
+    <div class="clearfix"></div>
+  </footer>
 </body>
 
 </html>
